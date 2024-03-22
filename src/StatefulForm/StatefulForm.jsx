@@ -44,7 +44,8 @@ const StatefulForm = () => {
                 <input type="submit" value="Submit" />
             </form>
             {
-                error && <p>{error}</p>
+                error && <p>{error
+                }</p>
             }
         </div>
     );
